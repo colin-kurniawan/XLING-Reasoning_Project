@@ -83,9 +83,40 @@ def main():
                     print(f"  Method: {translation}, Average Score: {avg_score}")
         print("-----------------------------------------------------------------------------------------------------------------\n\n")
 
-
+    print("#####################################################RESULTS#####################################################\n")
     print(f"Total Empty Translation: {empty_translation_count}\n")
-    
+    print("------------------------------------------------------es-en------------------------------------------------------")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Llama-8B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: Qwen/Qwen3-8B")
+    print(" Best Method: teacher-CoT-translation")
+    print("-----------------------------------------------------------------------------------------------------------------\n\n")
+
+    print("------------------------------------------------------en-es------------------------------------------------------")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Llama-8B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: Qwen/Qwen3-8B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+    print(" Best Method: self-CoT-translation")
+    print("-----------------------------------------------------------------------------------------------------------------\n\n")
+
+    print("------------------------------------------------------fr-en------------------------------------------------------")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Llama-8B")
+    print(" Best Method: self-CoT-translation")
+    print("Model: Qwen/Qwen3-8B")
+    print(" Best Method: direct_translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
+    print(" Best Method: teacher-CoT-translation")
+    print("Model: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+    print(" Best Method: teacher-CoT-translation")
+    print("-----------------------------------------------------------------------------------------------------------------\n\n")
 
 if __name__ == "__main__":
     main()
