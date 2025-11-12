@@ -39,6 +39,6 @@ This repository is my attempt for the XLING-Reasoning Project Exercise. Under th
 ---
 
 ## Conclusion
-- The `teacher-CoT-translation` method frequently yields the highest BLEU scores. 
+- The `teacher-CoT-translation` method frequently yields the highest BLEU scores most of the time. 
 
 ---
